@@ -1,0 +1,23 @@
+POST http://localhost:3000/api/createUser
+Content-Type: application/json
+
+{
+    "phoneNumber": 999999,
+    "password": "password123"
+}
+
+# POST http://localhost:3000/api/login
+# Content-Type: application/json
+
+# {
+#     "phoneNumber": 99999999,
+#     "password": "password123"
+# }
+
+# POST http://localhost:3000/api/validate
+# Content-Type: application/json
+
+# {
+#     "phoneNumber": 99999999,
+#     "otp": 976205
+# }
